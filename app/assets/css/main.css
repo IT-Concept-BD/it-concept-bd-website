@@ -20,3 +20,5 @@
   --breakpoint-md: 900px;
   --ease-out-soft: cubic-bezier(.2, .8, .2, 1);
 }
+
+html{scrollbar-gutter:stable}

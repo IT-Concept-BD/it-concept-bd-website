@@ -23,8 +23,8 @@ const setFilter = (id: string) => {
 const hover = (i: number) => { if (active.value !== i) { active.value = i; swap.value++ } }
 const click = (i: number) => (active.value === i ? (modal.value = true) : hover(i))
 
-watch(modal, (open) => { document.documentElement.style.overflow = open ? 'hidden' : '' })
-onBeforeUnmount(() => { document.documentElement.style.overflow = '' })
+watch(modal, (open) => { document.documentElement.classList.toggle('modal-open', open) })
+onBeforeUnmount(() => document.documentElement.classList.remove('modal-open'))
 </script>
 
 <template>
@@ -62,9 +62,11 @@ onBeforeUnmount(() => { document.documentElement.style.overflow = '' })
         </div>
       </div>
     </div>
-    <CaseStudyModal
-      v-if="modal" :title="current.name" :desc="current.desc" :cats="current.cats" :stack="current.stack" :art="current.art"
-      @close="modal = false"
-    />
+    <Transition name="mod">
+      <CaseStudyModal
+        v-if="modal" :title="current.name" :desc="current.desc" :cats="current.cats" :stack="current.stack" :art="current.art"
+        @close="modal = false"
+      />
+    </Transition>
   </section>
 </template>
