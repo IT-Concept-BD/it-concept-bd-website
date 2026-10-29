@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "brand": "IT Concept",
+    "brandAccent": "BD",
+    "logoAlt": "IT Concept BD"
+  },
+  "ui": {
+    "toTop": "Back to top",
+    "toggleMenu": "Toggle menu",
+    "home": "IT Concept BD home",
+    "mainNav": "Main",
+    "mobileNav": "Mobile",
+    "prevQuote": "Previous quote",
+    "nextQuote": "Next quote",
+    "closeCase": "Close case study"
+  },
+  "nav": {
+    "cta": "Get Free Consultation",
+    "items": [
+      { "id": "hero", "label": "Home" },
+      { "id": "clients", "label": "Clients" },
+      { "id": "services", "label": "Services" },
+      { "id": "work", "label": "Portfolio" },
+      { "id": "about", "label": "About" },
+      { "id": "contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "words": [
+      { "w": "Build" }, { "w": "a" }, { "w": "modern" },
+      { "w": "digital", "hl": true }, { "w": "brand", "hl": true },
+      { "w": "with" }, { "w": "IT" }, { "w": "Concept" }, { "w": "BD" }
+    ],
+    "lead": "We design premium websites, build business software and craft high-quality graphics that help your brand look trusted, modern and ready to grow.",
+    "start": "Start Project",
+    "portfolio": "View Portfolio",
+    "trustBold": "90+ happy clients",
+    "trustRest": "including BG Group, Gulshan Club and Bangladesh Dental College.",
+    "mockUrl": "yourbrand.com.bd",
+    "mockTitle": "Your brand, online.",
+    "mockSub": "Fast. Secure. Built to convert.",
+    "projects": "Projects delivered",
+    "satisfaction": "Client satisfaction",
+    "approved": "Design approved",
+    "approvedSub": "Ready to build"
+  },
+  "giant": ["Websites", "Software", "Branding", "Marketing", "Hosting", "Support"],
+  "clients": {
+    "eyebrow": "Clients",
+    "title": "Trusted by businesses across Bangladesh and abroad.",
+    "sub": "Corporate groups, clubs, schools and international partners rely on us for design, software and monthly IT support.",
+    "intl": "Intl",
+    "local": ["BG Group", "One Better World", "ATMS", "Bangladesh Dental College", "Gulshan Club Ltd.", "British School of Law", "Texla Private Ltd.", "Techno IT City", "Shams Hardware & Tools Ltd.", "Aboni Architects", "Design Impression"],
+    "international": ["Hook International", "Aurora Steak House", "Eureka Ship Management", "CLR Portugal"]
+  },
+  "stats": {
+    "label": "Key numbers",
+    "items": [
+      { "n": 220, "suf": "+", "label": "Projects delivered" },
+      { "n": 90, "suf": "+", "label": "Happy clients" },
+      { "n": 24, "suf": "/7", "label": "Support ready" },
+      { "n": 12, "suf": "+", "label": "Years of experience" },
+      { "n": 99, "suf": "%", "label": "Client satisfaction" }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Everything your business needs to go digital.",
+    "sub": "Six focused services, one accountable team. Hover or tap a service to explore it. Every project is custom built around your goals.",
+    "items": [
+      {
+        "key": "web", "icon": "code", "tab": "Websites", "chip": "Website",
+        "title": "Website Design & Development",
+        "lead": "Business and eCommerce websites built with Nuxt, Vue and Laravel. We focus on speed, responsive design, security and SEO so your site wins customers from day one.",
+        "checks": ["Corporate websites", "eCommerce stores", "Fast and responsive", "Security and SEO"],
+        "link": "Plan a website", "href": "#contact"
+      },
+      {
+        "key": "soft", "icon": "layers", "tab": "Software", "chip": "Software",
+        "title": "Business Software Solution",
+        "lead": "Software that matches how your team really works, from the shop counter to the back office, with clear reports for the people who run the business.",
+        "checks": ["POS systems", "Inventory management", "CRM", "Admin panels and reports"],
+        "link": "Plan a system", "href": "#contact"
+      },
+      {
+        "key": "brand", "icon": "palette", "tab": "Brand & Graphics", "chip": "Branding",
+        "title": "Graphics & Brand Design",
+        "lead": "A consistent identity across your website, print and social media, so customers recognise and trust you everywhere they meet you.",
+        "checks": ["Logo design", "Catalogs", "Social media creatives", "Complete brand kits"],
+        "link": "Plan a brand", "href": "#contact"
+      },
+      {
+        "key": "mkt", "icon": "megaphone", "tab": "Marketing", "chip": "Marketing",
+        "title": "Digital Marketing",
+        "lead": "Get found and get chosen. We run the campaigns and content that bring the right customers to your website and your door.",
+        "checks": ["Facebook (Meta) ads", "SEO", "Google presence", "Content planning"],
+        "link": "Plan a campaign", "href": "#contact"
+      },
+      {
+        "key": "host", "icon": "globe", "tab": "Domain & Hosting", "chip": "Domain & Hosting",
+        "title": "Domain, Cloud Hosting & Server",
+        "lead": "Register your name, host it on reliable servers and keep everything updated, with business email that matches your brand.",
+        "checks": [".com, .net, .org", ".com.bd, .gov.bd, BTCL", "Cloud hosting and VPS", "cPanel/WHM and email"],
+        "link": "Find a domain", "href": "#domain"
+      },
+      {
+        "key": "it", "icon": "headset", "tab": "IT Support", "chip": "IT Support",
+        "title": "IT Consulting & Managed Support",
+        "lead": "A monthly plan that gives you a dedicated team for your website, server, email and software, with marketing help when you need it.",
+        "checks": ["Website support", "Server management", "Email support", "Software support"],
+        "link": "Ask about monthly plans", "href": "#contact"
+      }
+    ],
+    "mock": {
+      "shopUrl": "yourbrand.com",
+      "shopTitle": "Shop the new range",
+      "shopSub": "Free delivery across Dhaka",
+      "item": "Item",
+      "price": "৳ 0,000",
+      "total": "Total",
+      "visitors": "Visitors this month",
+      "visitorsN": "0,000",
+      "visitorsPc": "+00%",
+      "srv1": "yourbrand.com.bd",
+      "srv1s": "Online",
+      "srv2": "VPS server",
+      "srv2s": "Healthy",
+      "srv3": "Business email",
+      "srv3s": "Active",
+      "srv4": "Daily backup",
+      "srv4s": "Done",
+      "t1": "Website update", "t1s": "Requested today", "t1b": "In progress",
+      "t2": "Email setup", "t2s": "Requested yesterday", "t2b": "Done",
+      "t3": "Server check", "t3s": "Monthly review", "t3b": "Done"
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Selected work that moved real businesses.",
+    "sub": "220+ projects delivered, 6 services and 100% custom work. Hover a project to preview it, then click to open the case study.",
+    "filters": [
+      { "id": "All", "label": "All projects" },
+      { "id": "Website", "label": "Website" },
+      { "id": "Software", "label": "Software" },
+      { "id": "Branding", "label": "Branding" },
+      { "id": "Campaign", "label": "Campaign" }
+    ],
+    "showing": "Showing {n} projects",
+    "want": "Want yours here?",
+    "caseStudy": "Case study",
+    "items": [
+      { "name": "Eureka Ship Management", "cats": ["Website"], "art": "web", "desc": "Corporate business website. PHP, WordPress, MySQL.", "stack": "PHP · WordPress · MySQL" },
+      { "name": "British School of Law", "cats": ["Branding", "Campaign"], "art": "red", "desc": "Business page management and SEO project.", "stack": "SEO · Social media" },
+      { "name": "[Project name]", "cats": ["Software"], "art": "dash", "desc": "[Client] · POS and inventory", "stack": "[Stack]", "ph": true },
+      { "name": "[Project name]", "cats": ["Website"], "art": "app", "desc": "[Client] · eCommerce", "stack": "[Stack]", "ph": true },
+      { "name": "[Project name]", "cats": ["Branding"], "art": "brand", "desc": "[Client] · Brand kit", "stack": "Adobe", "ph": true },
+      { "name": "[Project name]", "cats": ["Branding"], "art": "cat", "desc": "[Client] · Catalog", "stack": "Adobe", "ph": true },
+      { "name": "[Project name]", "cats": ["Software"], "art": "dash", "desc": "[Client] · CRM and reports", "stack": "[Stack]", "ph": true },
+      { "name": "[Project name]", "cats": ["Campaign"], "art": "app", "desc": "[Client] · Social campaign", "stack": "Meta Ads", "ph": true }
+    ],
+    "art": { "today": "Today", "price": "৳ 0,000" },
+    "case": {
+      "client": "Client",
+      "services": "Services",
+      "built": "Built with",
+      "year": "Year",
+      "yearValue": "[Year]",
+      "results": [
+        { "n": "[00%]", "label": "[Result, for example more enquiries]" },
+        { "n": "[0.0s]", "label": "[Result, for example page load time]" },
+        { "n": "[000]", "label": "[Result, for example monthly visitors]" }
+      ],
+      "like": "Like what you see? Tell us about your project.",
+      "start": "Start your project"
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "A clear path from first call to long-term support.",
+    "sub": "You always know what happens next, who is responsible and when it will be ready.",
+    "steps": [
+      { "title": "Discover", "text": "We listen to your goals, customers and budget, then agree on scope and timeline." },
+      { "title": "Design", "text": "You review the full UI/UX design and approve it before any code is written." },
+      { "title": "Build", "text": "We develop a fast, secure and responsive product and share progress regularly." },
+      { "title": "Launch and support", "text": "We go live, train your team and stay on with monthly support, ready 24/7." }
+    ]
+  },
+  "about": {
+    "eyebrow": "About IT Concept BD",
+    "title": "A creative digital team that thinks like your business.",
+    "text": "We combine premium design with business strategy, so every website, system and campaign we ship helps you earn trust and grow. Our team in Dhaka stays with you long after launch.",
+    "cta": "Work with us",
+    "expEyebrow": "Experience",
+    "years": "Years of experience",
+    "custom": "Custom work",
+    "core": "Core services",
+    "cards": [
+      { "icon": "palette", "title": "Premium design with business strategy", "text": "Beautiful work built around your customers and revenue goals." },
+      { "icon": "device", "title": "Responsive development", "text": "Fast, secure sites that work on every phone, tablet and desktop." },
+      { "icon": "chat", "title": "Clear communication", "text": "One point of contact, honest timelines and updates you can follow." },
+      { "icon": "headset2", "title": "Post-launch support", "text": "Maintenance, hosting and monthly IT support, ready 24/7." }
+    ]
+  },
+  "tech": ["Nuxt", "Vue", "Laravel", "Tailwind", "MySQL", "SEO", "Web Server", "Adobe", "Meta Ads"],
+  "voices": {
+    "eyebrow": "Client voices",
+    "title": "Long-term partners, not one‑off projects.",
+    "items": [
+      { "name": "Rafiqul Alam Helal", "role": "Former President, Gulshan Club Ltd.", "ini": "RH", "quote": "Great experience working together." },
+      { "name": "Zainul Abdin Farroque", "role": "Chairman, BG Group", "ini": "ZF", "quote": "They understood our vision and delivered perfectly." },
+      { "name": "BG Group", "role": "Corporate Business Group", "ini": "BG", "quote": "Monthly end-to-end IT support, website maintenance and server management. [Replace with approved quote]" },
+      { "name": "Texla Private Ltd", "role": "Buying House", "ini": "TX", "quote": "Monthly technical support, eCommerce management and catalog development. [Replace with approved quote]" },
+      { "name": "CLR", "role": "Business Partner, Portugal", "ini": "CL", "quote": "Monthly IT support, eCommerce management and software solutions. [Replace with approved quote]" }
+    ]
+  },
+  "domain": {
+    "eyebrow": "Domain & hosting",
+    "title": "Claim your name on the web.",
+    "text": "Register .com, .net, .org, .com.bd, .gov.bd and BTCL domains, then host them on fast cloud servers with business email.",
+    "includes": ["Cloud hosting", "VPS", "cPanel/WHM", "Business email", "Maintenance"],
+    "label": "Find your domain",
+    "placeholder": "yourbrand",
+    "check": "Check",
+    "tlds": [".com", ".net", ".org", ".com.bd", ".gov.bd"],
+    "preview": "Example preview"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Answers before you ask.",
+    "sub": "Not here? Message us and we will reply within one working day.",
+    "cta": "Ask a question",
+    "items": [
+      { "q": "How much does a project cost?", "a": "Every project is custom, so we quote after a free consultation. Tell us your goals and budget and we will recommend the right scope." },
+      { "q": "Do you support us after launch?", "a": "Yes. Our monthly IT support covers your website, server, email and software, and our team is ready 24/7." },
+      { "q": "Can you work with our existing website or server?", "a": "Yes. We offer consulting and managed support for existing websites, servers, email and software, as well as new builds." },
+      { "q": "Which technologies do you use?", "a": "Mostly Nuxt, Vue, Laravel, Tailwind and MySQL. We also work with PHP and WordPress when that is the right fit for the project." },
+      { "q": "Can you register .com.bd and .gov.bd domains?", "a": "Yes. We register .com, .net, .org, .com.bd and .gov.bd domains, including through BTCL." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Tell us about your project.",
+    "lead": "Share a few details and we will reply with a free consultation, usually within one working day.",
+    "phoneLabel": "Phone / WhatsApp",
+    "phone": "+880 1729 846831",
+    "emailLabel": "Email",
+    "email": "info{'@'}itconceptbd.com",
+    "officeLabel": "Office",
+    "office": "Dhaka, Bangladesh",
+    "mapName": "IT Concept BD",
+    "mapAddress": "Dhaka, Bangladesh [add street address]",
+    "formTitle": "Start a conversation",
+    "name": "Your name",
+    "namePh": "Full name",
+    "emailField": "Email",
+    "emailPh": "you{'@'}company.com",
+    "phoneField": "Phone / WhatsApp",
+    "phonePh": "+880 1XXX XXXXXX",
+    "serviceType": "Service type",
+    "services": ["Website", "Software", "Branding", "Marketing", "Domain & Hosting", "IT Support"],
+    "details": "Project details",
+    "detailsPh": "What are you looking to build?",
+    "private": "Your details stay private.",
+    "send": "Send Secure Message",
+    "sentTitle": "Message sent. Thank you.",
+    "sentText": "We received your details and will reply with a free consultation, usually within one working day. For anything urgent, call or WhatsApp +880 1729 846831.",
+    "again": "Send another message"
+  },
+  "footer": {
+    "eyebrow": "Ready when you are",
+    "line1": "Let's build",
+    "line2": "something",
+    "line2Accent": "great.",
+    "lead": "Tell us what you need and we will show you how to get there.",
+    "start": "Start Project",
+    "about": "IT Concept BD is a creative digital team in Dhaka that builds websites, business software and brands that look trusted and modern.",
+    "quick": "Quick links",
+    "quickLinks": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Portfolio", "href": "#work" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "servicesTitle": "Services",
+    "serviceLinks": [
+      { "label": "Website Design & Development", "href": "#services" },
+      { "label": "Business Software", "href": "#services" },
+      { "label": "Graphics & Brand Design", "href": "#services" },
+      { "label": "Digital Marketing", "href": "#services" },
+      { "label": "Domain & Hosting", "href": "#domain" }
+    ],
+    "contactTitle": "Contact",
+    "copy": "© 2026 IT Concept BD. All rights reserved.",
+    "wordmark": "IT CONCEPT BD"
+  }
+}

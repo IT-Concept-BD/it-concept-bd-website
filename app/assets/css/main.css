@@ -1,0 +1,22 @@
+/* Tailwind v4: theme tokens + utilities. Preflight is skipped on purpose; the approved design ships its own resets in site.css. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "./site.css" layer(components);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  --color-ink: #1a1a1b;
+  --color-char: #3f403c;
+  --color-gray: #838284;
+  --color-silver: #b7b8b9;
+  --color-body: #59595b;
+  --color-mist: #f6f6f5;
+  --color-line: #e4e4e5;
+  --color-red: #db2b2f;
+  --color-red-deep: #c9282c;
+  --color-red-soft: #f26468;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --breakpoint-md: 900px;
+  --ease-out-soft: cubic-bezier(.2, .8, .2, 1);
+}
